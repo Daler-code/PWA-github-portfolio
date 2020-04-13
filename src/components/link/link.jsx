@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
 import './link.css';
 
 const Link = ({ url, title }) => (
@@ -11,4 +13,11 @@ const Link = ({ url, title }) => (
     {title}
   </a>
 );
+
 export default Link;
+
+
+Link.propTypes = {
+  url: PropTypes.object.isRequired,
+  title: PropTypes.object.isRequired
+}

@@ -1,13 +1,13 @@
 .App-logo {
   height: 64px;
   pointer-events: none;
+  margin-bottom: 80px;
   }
   .App-header {
   background-color: #282c34;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100%;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
